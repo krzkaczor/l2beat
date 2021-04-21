@@ -62,6 +62,30 @@
       "stablecoin": false,
       "decimals": 18,
       "coinpaprika_id": "link-chainlink"
+    },
+    "WETH": {
+      "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+      "stablecoin": false,
+      "decimals": 18,
+      "coinpaprika_id": "weth-weth"
+    },
+    "MATIC": {
+      "address": "0x7d1afa7b718fb893db30a3abc0cfc608aacfebb0",
+      "stablecoin": false,
+      "decimals": 18,
+      "coinpaprika_id": "matic-matic-network"
+    },
+    "ROUTE": {
+      "address": "0x16eccfdbb4ee1a85a33f3a9b21175cd7ae753db4",
+      "stablecoin": false,
+      "decimals": 18,
+      "coinpaprika_id": "route-router-protocol"
+    },
+    "AAVE": {
+      "address": "0x7fc66500c84a76ad7e9c93437bfc5ac33e2ddae9",
+      "stablecoin": false,
+      "decimals": 18,
+      "coinpaprika_id": "aave-new"
     }
   },
   "l2s": {
@@ -124,6 +148,28 @@
         {
           "address": "0x5FDCCA53617f4d2b9134B29090C87D01058e27e9",
           "deployed_at_block": 12011518,
+          "tokens": ["ETH"]
+        }
+      ]
+    },
+    "Polygon": {
+      "bridges": [
+        {
+          "_desc": "Plasma bridge",
+          "address": "0x401F6c983eA34274ec46f84D70b31C151321188b",
+          "deployed_at_block": 10167767,
+          "tokens": ["DAI", "MATIC"]
+        },
+        {
+          "_desc": "PoS erc20 bridge",
+          "address": "0x40ec5B33f54e0E8A33A975908C5BA1c14e5BbbDf",
+          "deployed_at_block": 10735445,
+          "tokens": ["USDC", "WBTC", "ROUTE", "AAVE", "DAI", "USDT", "LINK", "WETH"]
+        },
+        {
+          "_desc": "PoS ether bridge",
+          "address": "0x8484Ef722627bf18ca5Ae6BcF031c23E6e922B30",
+          "deployed_at_block": 10735538,
           "tokens": ["ETH"]
         }
       ]
